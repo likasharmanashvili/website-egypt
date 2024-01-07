@@ -1,0 +1,64 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{ overflow-x: hidden;height: 100vh;background-image: url(tourist-attractions-of-egypt_best-places-to-visit-in-egypt.jpg);
+background-repeat: no-repeat;background-size: cover;
+backdrop-filter: blur(8px);
+}
+.logo{font-family: Bungee Spice;}
+.nav >a{font-family: roboto;color: aliceblue;text-decoration: none;}
+.nav >a:hover{color: gainsboro;}
+.logo{display: flex;align-items: center;justify-content: center;gap: 700px;margin-top: 30px;}
+.card1 >img{width: 300px;height: 300px;}
+.card2 >img{width: 300px;height: 300px;}
+.card3 >img{width: 300px;height: 300px;}
+.card4 >img{width: 300px;height: 300px;}
+.content1 >h1{color: aliceblue;font-size: 40px;font-family: Roboto;}
+.content1 >p{color: aliceblue;width: 300px;}
+.content1 >button{width: 100px;height: 50px;border-radius: 20px;border: none;color: rgb(13, 13, 14);font-family: Roboto;}
+.content {display: flex;align-items: center;justify-content: center;gap: 30px;}
+
+.cards{display: flex;gap: 30px;margin-top: 40px;}
+.cards1{display: flex;gap: 30px;margin-top: 30px;}
+.card1>a{color: aliceblue;text-decoration: none;font-family: Roboto;
+    font-size: 20px;position: absolute;}
+    .card1{display: flex;align-items: center;justify-content: center;}
+    .card2>a{color: aliceblue;text-decoration: none;font-family: Roboto;
+        font-size: 20px;position: absolute;}
+        .card2{display: flex;align-items: center;justify-content: center;}
+        .card3>a{color: aliceblue;text-decoration: none;font-family: Roboto;
+            font-size: 20px;position: absolute;}
+            .card3{display: flex;align-items: center;justify-content: center;}
+            .card4>a{color: white;text-decoration: none;font-family: Roboto;
+                font-size: 20px;position: absolute;}
+                .card4{display: flex;align-items: center;justify-content: center;}
+                .card1 >a:hover{font-size: 30px;color: black;}
+                .card2 >a:hover{font-size: 30px;color: black;}
+                .card3 >a:hover{font-size: 30px;color: black;}
+                .card4 >a:hover{font-size: 30px;color: black;}
+.card1 >img:hover{margin-top: -20px;}
+.card2 >img:hover{margin-top: -20px;}
+.card3 >img:hover{margin-top: -20px;}
+.card4 >img:hover{margin-top: -20px;}
+.content1{display: flex;flex-direction: column;gap: 30px;}
+.content1>button:hover{background-color: bisque;}
+@media (width<775px){
+    body {
+        margin: 0;
+        overflow-x: hidden;
+        height: 100vh;
+        background-image: url(tourist-attractions-of-egypt_best-places-to-visit-in-egypt.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* This ensures that the background doesn't scroll */
+        color: white;
+        }
+
+    .logo{gap: 100px;display: flex;flex-direction: column;}
+    .logo >h1{font-size: 30px;}
+    .content{display: flex;flex-direction: column;margin-top: 100px;}
+    .content1{text-align: center;}
+    .content1{display: flex;align-items: center;justify-content: center;}
+    .cards{display: flex;flex-direction: column;}
+    .cards1{display: flex;flex-direction: column;}
+.nav{display: none;}
+
+} 
